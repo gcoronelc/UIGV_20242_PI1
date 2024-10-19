@@ -12,8 +12,9 @@ import pe.edu.uni.educa2024.service.EducaService;
  * @facebook www.facebook.com/groups/desarrollasoftware/
  * @cursos gcoronelc.github.io
  */
-public class Prueba06 {
+public class PruebaMatricula05 {
 	
+	// Tipo de matricula incorrecto
 	public static void main(String[] args) {
 		try {
 			// Datos

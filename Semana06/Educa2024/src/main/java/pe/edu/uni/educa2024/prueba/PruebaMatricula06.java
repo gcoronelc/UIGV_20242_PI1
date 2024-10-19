@@ -6,22 +6,24 @@ import pe.edu.uni.educa2024.service.EducaService;
 /**
  *
  * @author Eric Gustavo Coronel Castillo
- * @blog www.desarrollasoftware.com
+ * @blog www.desarrollasoftware.comI
  * @email gcoronelc@gmail.com
  * @youtube www.youtube.com/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  * @cursos gcoronelc.github.io
  */
-public class Prueba05 {
+public class PruebaMatricula06 {
 	
-	// Matricula ya existe
+	// Número de cuotas incorrecto
 	public static void main(String[] args) {
 		try {
 			// Datos
 			MatriculaDto bean = new MatriculaDto();
-			bean.setIdCurso(2);
-			bean.setIdAlumno(3);
+			bean.setIdCurso(1);
+			bean.setIdAlumno(7);
 			bean.setIdEmpleado(1);
+			bean.setTipo("MEDIABECA");
+			bean.setCuotas(2);
 			// Proceso
 			EducaService service = new EducaService();
 			bean = service.procMatricula(bean);

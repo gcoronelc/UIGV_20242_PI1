@@ -12,20 +12,22 @@ import pe.edu.uni.educa2024.service.EducaService;
  * @facebook www.facebook.com/groups/desarrollasoftware/
  * @cursos gcoronelc.github.io
  */
-public class Prueba07 {
+public class PruebaMatricula07 {
 	
+	// Matricula correcta
 	public static void main(String[] args) {
 		try {
 			// Datos
 			MatriculaDto bean = new MatriculaDto();
-			bean.setIdCurso(1);
-			bean.setIdAlumno(7);
+			bean.setIdCurso(2);
+			bean.setIdAlumno(8);
 			bean.setIdEmpleado(1);
 			bean.setTipo("MEDIABECA");
-			bean.setCuotas(2);
+			bean.setCuotas(1);
 			// Proceso
 			EducaService service = new EducaService();
 			bean = service.procMatricula(bean);
+			System.out.println(bean);
 			// Reporte
 			System.out.println("Matricula ok.");
 		} catch (Exception e) {
