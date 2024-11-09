@@ -13,11 +13,13 @@ import lombok.NoArgsConstructor;
  * @facebook www.facebook.com/groups/desarrollasoftware/
  * @cursos gcoronelc.github.io
  */
-@Data @AllArgsConstructor @NoArgsConstructor
+@Data 
+@AllArgsConstructor 
+@NoArgsConstructor
 public class UsuarioDto {
 	
-	private String usuario;
 	private int idEmpleado;
+	private String usuario;
 	private int idRol;
 	private String nombRol;
 

@@ -9,6 +9,7 @@ pe\edu\uni\biblioteca\prueba\PruebaPrestamo02.class
 pe\edu\uni\biblioteca\view\MainView$2.class
 pe\edu\uni\biblioteca\db\AccesoDB.class
 pe\edu\uni\biblioteca\view\LogonView$1.class
+pe\edu\uni\biblioteca\view\RegistrarPrestamoView.class
 pe\edu\uni\biblioteca\view\LogonView$3.class
 pe\edu\uni\biblioteca\view\LogonView$3$1.class
 pe\edu\uni\biblioteca\dto\UsuarioDto.class
